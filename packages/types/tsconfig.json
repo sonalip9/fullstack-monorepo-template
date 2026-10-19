@@ -1,0 +1,5 @@
+{
+  "extends": "@template/config/tsconfig.base.json",
+  "compilerOptions": { "rootDir": ".", "noEmit": true },
+  "include": ["src", "eslint.config.js"]
+}
