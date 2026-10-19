@@ -202,6 +202,12 @@ importers:
       '@commitlint/config-conventional':
         specifier: 21.2.4
         version: 21.2.4
+      '@template/config':
+        specifier: workspace:*
+        version: link:packages/config
+      eslint:
+        specifier: 'catalog:'
+        version: 10.13.0(jiti@2.7.0)
       husky:
         specifier: 9.1.7
         version: 9.1.7
