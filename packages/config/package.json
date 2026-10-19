@@ -1,0 +1,20 @@
+{
+  "name": "@template/config",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "exports": {
+    "./eslint": "./eslint/index.js",
+    "./tsconfig.base.json": "./tsconfig.base.json",
+    "./tsconfig.nest.json": "./tsconfig.nest.json"
+  },
+  "dependencies": {
+    "@eslint/js": "10.0.1",
+    "globals": "17.13.0",
+    "typescript-eslint": "catalog:"
+  },
+  "peerDependencies": {
+    "eslint": "catalog:",
+    "typescript": "catalog:"
+  }
+}
