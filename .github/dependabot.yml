@@ -1,0 +1,26 @@
+version: 2
+
+updates:
+  # pnpm uses the "npm" ecosystem value. Dependabot supports pnpm workspace
+  # catalogs (GitHub changelog, 2025-02-04), so catalog entries in
+  # pnpm-workspace.yaml are updated too. Its docs list pnpm v7 to v10 as
+  # supported, and this repo uses pnpm 12: check the first Dependabot PRs.
+  - package-ecosystem: npm
+    directory: /
+    schedule:
+      interval: weekly
+    groups:
+      minor-and-patch:
+        update-types:
+          - minor
+          - patch
+
+  - package-ecosystem: github-actions
+    directory: /
+    schedule:
+      interval: weekly
+    groups:
+      minor-and-patch:
+        update-types:
+          - minor
+          - patch
