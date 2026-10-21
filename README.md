@@ -87,8 +87,13 @@ pnpm turbo run build --filter=@template/api
 ## Use it as your own
 
 1. Create a repository from this template.
-2. Rename the `@template/` scope in `package.json` files, imports and `tsconfig` extends.
-3. Run `pnpm install && pnpm check`.
+2. Rename the package scope to your own (it replaces `@template/` everywhere and refreshes the lockfile):
+
+   ```bash
+   pnpm rename-scope @acme
+   ```
+
+3. Run `pnpm check`.
 
 ## Docs
 
