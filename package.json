@@ -17,7 +17,8 @@
     "test": "turbo run test",
     "check": "turbo run lint typecheck test build",
     "format": "prettier --write .",
-    "prepare": "husky"
+    "prepare": "husky",
+    "rename-scope": "node scripts/rename-scope.mjs"
   },
   "devDependencies": {
     "@commitlint/cli": "21.2.4",
