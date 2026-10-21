@@ -80,7 +80,7 @@ pnpm turbo run build --filter=@template/api
 
 ## Guardrails
 
-- **Pre-commit** (husky + lint-staged): ESLint and Prettier on staged files, then `pnpm typecheck`.
+- **Pre-commit** (husky + lint-staged): ESLint and Prettier on staged files, then `pnpm typecheck`. The typecheck covers the whole repo, so commits take a few seconds longer. For a work-in-progress commit, skip the hooks with `git commit --no-verify`.
 - **Commit message** (commitlint): [Conventional Commits](https://www.conventionalcommits.org), lowercase subject, no trailing period, 72 characters at most.
 - **Install scripts are denied** in `pnpm-workspace.yaml` (`allowBuilds`). Allow one only after checking that the package needs it.
 
