@@ -20,9 +20,3 @@ catalog:
   typescript: ~6.0.3
   typescript-eslint: ^8.71.2
   vitest: 5.0.5
-
-minimumReleaseAgeExclude:
-  - '@nestjs/common@12.2.0'
-  - '@nestjs/core@12.2.0'
-  - '@nestjs/platform-express@12.2.0'
-  - '@nestjs/testing@12.2.0'
