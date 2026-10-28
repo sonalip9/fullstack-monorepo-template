@@ -20,9 +20,9 @@
     "rxjs": "7.8.2"
   },
   "devDependencies": {
-    "@nestjs/cli": "12.0.8",
+    "@nestjs/cli": "12.0.10",
     "@nestjs/testing": "catalog:",
-    "@swc/core": "1.16.18",
+    "@swc/core": "1.16.20",
     "@template/config": "workspace:*",
     "@types/node": "catalog:",
     "@types/supertest": "7.2.1",
